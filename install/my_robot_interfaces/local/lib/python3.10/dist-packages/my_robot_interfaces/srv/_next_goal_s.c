@@ -1,0 +1,1 @@
+/home/srinjoy/hb_task2_ws/build/my_robot_interfaces/rosidl_generator_py/my_robot_interfaces/srv/_next_goal_s.c

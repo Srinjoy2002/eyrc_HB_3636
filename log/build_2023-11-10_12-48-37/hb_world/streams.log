@@ -1,0 +1,43 @@
+[0.849s] Invoking command in '/home/srinjoy/hb_task2_ws/build/hb_world': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/srinjoy/hb_task2_ws/install/hb_task2b:/home/srinjoy/hb_task2_ws/install/hb_task2a:/home/srinjoy/ws_moveit/install/moveit_configs_utils:/opt/ros/humble /home/srinjoy/.local/bin/cmake --build /home/srinjoy/hb_task2_ws/build/hb_world -- -j12 -l12
+[0.908s] Invoked command in '/home/srinjoy/hb_task2_ws/build/hb_world' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/srinjoy/hb_task2_ws/install/hb_task2b:/home/srinjoy/hb_task2_ws/install/hb_task2a:/home/srinjoy/ws_moveit/install/moveit_configs_utils:/opt/ros/humble /home/srinjoy/.local/bin/cmake --build /home/srinjoy/hb_task2_ws/build/hb_world -- -j12 -l12
+[0.986s] Invoking command in '/home/srinjoy/hb_task2_ws/build/hb_world': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/srinjoy/hb_task2_ws/install/hb_task2b:/home/srinjoy/hb_task2_ws/install/hb_task2a:/home/srinjoy/ws_moveit/install/moveit_configs_utils:/opt/ros/humble /home/srinjoy/.local/bin/cmake --install /home/srinjoy/hb_task2_ws/build/hb_world
+[1.017s] -- Install configuration: ""
+[1.017s] -- Up-to-date: /home/srinjoy/hb_task2_ws/install/hb_world/share/hb_world//launch
+[1.018s] -- Up-to-date: /home/srinjoy/hb_task2_ws/install/hb_world/share/hb_world//launch/world.launch.py
+[1.019s] -- Up-to-date: /home/srinjoy/hb_task2_ws/install/hb_world/share/hb_world//worlds
+[1.019s] -- Up-to-date: /home/srinjoy/hb_task2_ws/install/hb_world/share/hb_world//worlds/gazebo.world
+[1.020s] -- Up-to-date: /home/srinjoy/hb_task2_ws/install/hb_world/share/hb_world//models
+[1.020s] -- Up-to-date: /home/srinjoy/hb_task2_ws/install/hb_world/share/hb_world//models/ground_surface
+[1.020s] -- Up-to-date: /home/srinjoy/hb_task2_ws/install/hb_world/share/hb_world//models/ground_surface/meshes
+[1.020s] -- Up-to-date: /home/srinjoy/hb_task2_ws/install/hb_world/share/hb_world//models/ground_surface/meshes/ground_surface.dae
+[1.020s] -- Up-to-date: /home/srinjoy/hb_task2_ws/install/hb_world/share/hb_world//models/ground_surface/meshes/geoglyph.jpg
+[1.020s] -- Up-to-date: /home/srinjoy/hb_task2_ws/install/hb_world/share/hb_world//models/ground_surface/model.sdf
+[1.020s] -- Up-to-date: /home/srinjoy/hb_task2_ws/install/hb_world/share/hb_world//models/ground_surface/model.config
+[1.020s] -- Up-to-date: /home/srinjoy/hb_task2_ws/install/hb_world/share/hb_world//models/arena
+[1.020s] -- Up-to-date: /home/srinjoy/hb_task2_ws/install/hb_world/share/hb_world//models/arena/meshes
+[1.020s] -- Up-to-date: /home/srinjoy/hb_task2_ws/install/hb_world/share/hb_world//models/arena/meshes/arena.jpg
+[1.021s] -- Up-to-date: /home/srinjoy/hb_task2_ws/install/hb_world/share/hb_world//models/arena/meshes/arena.dae
+[1.021s] -- Up-to-date: /home/srinjoy/hb_task2_ws/install/hb_world/share/hb_world//models/arena/model.sdf
+[1.021s] -- Up-to-date: /home/srinjoy/hb_task2_ws/install/hb_world/share/hb_world//models/arena/model.config
+[1.021s] -- Up-to-date: /home/srinjoy/hb_task2_ws/install/hb_world/share/hb_world//models/e_camera
+[1.021s] -- Up-to-date: /home/srinjoy/hb_task2_ws/install/hb_world/share/hb_world//models/e_camera/meshes
+[1.021s] -- Up-to-date: /home/srinjoy/hb_task2_ws/install/hb_world/share/hb_world//models/e_camera/meshes/17eyantra_logo_large e.png
+[1.021s] -- Up-to-date: /home/srinjoy/hb_task2_ws/install/hb_world/share/hb_world//models/e_camera/meshes/camera.dae
+[1.022s] -- Up-to-date: /home/srinjoy/hb_task2_ws/install/hb_world/share/hb_world//models/e_camera/model.sdf
+[1.022s] -- Up-to-date: /home/srinjoy/hb_task2_ws/install/hb_world/share/hb_world//models/e_camera/model.config
+[1.022s] -- Up-to-date: /home/srinjoy/hb_task2_ws/install/hb_world/share/ament_index/resource_index/package_run_dependencies/hb_world
+[1.022s] -- Up-to-date: /home/srinjoy/hb_task2_ws/install/hb_world/share/ament_index/resource_index/parent_prefix_path/hb_world
+[1.022s] -- Up-to-date: /home/srinjoy/hb_task2_ws/install/hb_world/share/hb_world/environment/ament_prefix_path.sh
+[1.022s] -- Up-to-date: /home/srinjoy/hb_task2_ws/install/hb_world/share/hb_world/environment/ament_prefix_path.dsv
+[1.022s] -- Up-to-date: /home/srinjoy/hb_task2_ws/install/hb_world/share/hb_world/environment/path.sh
+[1.023s] -- Up-to-date: /home/srinjoy/hb_task2_ws/install/hb_world/share/hb_world/environment/path.dsv
+[1.023s] -- Up-to-date: /home/srinjoy/hb_task2_ws/install/hb_world/share/hb_world/local_setup.bash
+[1.023s] -- Up-to-date: /home/srinjoy/hb_task2_ws/install/hb_world/share/hb_world/local_setup.sh
+[1.023s] -- Up-to-date: /home/srinjoy/hb_task2_ws/install/hb_world/share/hb_world/local_setup.zsh
+[1.023s] -- Up-to-date: /home/srinjoy/hb_task2_ws/install/hb_world/share/hb_world/local_setup.dsv
+[1.023s] -- Installing: /home/srinjoy/hb_task2_ws/install/hb_world/share/hb_world/package.dsv
+[1.023s] -- Up-to-date: /home/srinjoy/hb_task2_ws/install/hb_world/share/ament_index/resource_index/packages/hb_world
+[1.024s] -- Up-to-date: /home/srinjoy/hb_task2_ws/install/hb_world/share/hb_world/cmake/hb_worldConfig.cmake
+[1.024s] -- Up-to-date: /home/srinjoy/hb_task2_ws/install/hb_world/share/hb_world/cmake/hb_worldConfig-version.cmake
+[1.024s] -- Up-to-date: /home/srinjoy/hb_task2_ws/install/hb_world/share/hb_world/package.xml
+[1.106s] Invoked command in '/home/srinjoy/hb_task2_ws/build/hb_world' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/srinjoy/hb_task2_ws/install/hb_task2b:/home/srinjoy/hb_task2_ws/install/hb_task2a:/home/srinjoy/ws_moveit/install/moveit_configs_utils:/opt/ros/humble /home/srinjoy/.local/bin/cmake --install /home/srinjoy/hb_task2_ws/build/hb_world

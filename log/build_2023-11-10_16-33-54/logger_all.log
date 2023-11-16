@@ -1,0 +1,233 @@
+[1.326s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.326s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7fbb794af250>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fbb796cdb40>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fbb796cdb40>>, mixin_verb=('build',))
+[1.394s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.394s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.394s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.394s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.395s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.395s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.395s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/srinjoy/hb_task2_ws'
+[1.395s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.395s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.395s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.395s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.395s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.395s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.395s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.395s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.395s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.406s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.406s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.406s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.406s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.406s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.406s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.406s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.406s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.406s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.406s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.406s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.407s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.407s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.407s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.407s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.407s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.407s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.407s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.407s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.407s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.407s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.407s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.407s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.407s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.407s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.407s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.407s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.407s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/hb_bot) by extensions ['ignore', 'ignore_ament_install']
+[1.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/hb_bot) by extension 'ignore'
+[1.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/hb_bot) by extension 'ignore_ament_install'
+[1.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/hb_bot) by extensions ['colcon_pkg']
+[1.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/hb_bot) by extension 'colcon_pkg'
+[1.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/hb_bot) by extensions ['colcon_meta']
+[1.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/hb_bot) by extension 'colcon_meta'
+[1.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/hb_bot) by extensions ['ros']
+[1.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/hb_bot) by extension 'ros'
+[1.410s] DEBUG:colcon.colcon_core.package_identification:Package 'src/hb_bot' with type 'ros.ament_cmake' and name 'hb_bot'
+[1.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/hb_task2a) by extensions ['ignore', 'ignore_ament_install']
+[1.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/hb_task2a) by extension 'ignore'
+[1.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/hb_task2a) by extension 'ignore_ament_install'
+[1.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/hb_task2a) by extensions ['colcon_pkg']
+[1.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/hb_task2a) by extension 'colcon_pkg'
+[1.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/hb_task2a) by extensions ['colcon_meta']
+[1.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/hb_task2a) by extension 'colcon_meta'
+[1.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/hb_task2a) by extensions ['ros']
+[1.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/hb_task2a) by extension 'ros'
+[1.411s] DEBUG:colcon.colcon_core.package_identification:Package 'src/hb_task2a' with type 'ros.ament_python' and name 'hb_task2a'
+[1.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/hb_task2b) by extensions ['ignore', 'ignore_ament_install']
+[1.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/hb_task2b) by extension 'ignore'
+[1.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/hb_task2b) by extension 'ignore_ament_install'
+[1.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/hb_task2b) by extensions ['colcon_pkg']
+[1.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/hb_task2b) by extension 'colcon_pkg'
+[1.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/hb_task2b) by extensions ['colcon_meta']
+[1.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/hb_task2b) by extension 'colcon_meta'
+[1.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/hb_task2b) by extensions ['ros']
+[1.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/hb_task2b) by extension 'ros'
+[1.412s] DEBUG:colcon.colcon_core.package_identification:Package 'src/hb_task2b' with type 'ros.ament_python' and name 'hb_task2b'
+[1.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/hb_world) by extensions ['ignore', 'ignore_ament_install']
+[1.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/hb_world) by extension 'ignore'
+[1.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/hb_world) by extension 'ignore_ament_install'
+[1.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/hb_world) by extensions ['colcon_pkg']
+[1.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/hb_world) by extension 'colcon_pkg'
+[1.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/hb_world) by extensions ['colcon_meta']
+[1.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/hb_world) by extension 'colcon_meta'
+[1.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/hb_world) by extensions ['ros']
+[1.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/hb_world) by extension 'ros'
+[1.413s] DEBUG:colcon.colcon_core.package_identification:Package 'src/hb_world' with type 'ros.ament_cmake' and name 'hb_world'
+[1.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[1.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extension 'ignore'
+[1.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extension 'ignore_ament_install'
+[1.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extensions ['colcon_pkg']
+[1.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extension 'colcon_pkg'
+[1.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extensions ['colcon_meta']
+[1.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extension 'colcon_meta'
+[1.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extensions ['ros']
+[1.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extension 'ros'
+[1.413s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_robot_interfaces' with type 'ros.ament_cmake' and name 'my_robot_interfaces'
+[1.413s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.413s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.413s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.413s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.413s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.509s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.509s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.542s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 33 installed packages in /home/srinjoy/ws_moveit/install
+[1.559s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 329 installed packages in /opt/ros/humble
+[1.560s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.650s] Level 5:colcon.colcon_core.verb:set package 'hb_bot' build argument 'cmake_args' from command line to 'None'
+[1.651s] Level 5:colcon.colcon_core.verb:set package 'hb_bot' build argument 'cmake_target' from command line to 'None'
+[1.651s] Level 5:colcon.colcon_core.verb:set package 'hb_bot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.651s] Level 5:colcon.colcon_core.verb:set package 'hb_bot' build argument 'cmake_clean_cache' from command line to 'False'
+[1.651s] Level 5:colcon.colcon_core.verb:set package 'hb_bot' build argument 'cmake_clean_first' from command line to 'False'
+[1.651s] Level 5:colcon.colcon_core.verb:set package 'hb_bot' build argument 'cmake_force_configure' from command line to 'False'
+[1.651s] Level 5:colcon.colcon_core.verb:set package 'hb_bot' build argument 'ament_cmake_args' from command line to 'None'
+[1.651s] Level 5:colcon.colcon_core.verb:set package 'hb_bot' build argument 'catkin_cmake_args' from command line to 'None'
+[1.651s] Level 5:colcon.colcon_core.verb:set package 'hb_bot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.651s] DEBUG:colcon.colcon_core.verb:Building package 'hb_bot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/srinjoy/hb_task2_ws/build/hb_bot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/srinjoy/hb_task2_ws/install/hb_bot', 'merge_install': False, 'path': '/home/srinjoy/hb_task2_ws/src/hb_bot', 'symlink_install': False, 'test_result_base': None}
+[1.666s] Level 5:colcon.colcon_core.verb:set package 'hb_task2a' build argument 'cmake_args' from command line to 'None'
+[1.666s] Level 5:colcon.colcon_core.verb:set package 'hb_task2a' build argument 'cmake_target' from command line to 'None'
+[1.666s] Level 5:colcon.colcon_core.verb:set package 'hb_task2a' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.666s] Level 5:colcon.colcon_core.verb:set package 'hb_task2a' build argument 'cmake_clean_cache' from command line to 'False'
+[1.666s] Level 5:colcon.colcon_core.verb:set package 'hb_task2a' build argument 'cmake_clean_first' from command line to 'False'
+[1.666s] Level 5:colcon.colcon_core.verb:set package 'hb_task2a' build argument 'cmake_force_configure' from command line to 'False'
+[1.666s] Level 5:colcon.colcon_core.verb:set package 'hb_task2a' build argument 'ament_cmake_args' from command line to 'None'
+[1.666s] Level 5:colcon.colcon_core.verb:set package 'hb_task2a' build argument 'catkin_cmake_args' from command line to 'None'
+[1.666s] Level 5:colcon.colcon_core.verb:set package 'hb_task2a' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.666s] DEBUG:colcon.colcon_core.verb:Building package 'hb_task2a' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/srinjoy/hb_task2_ws/build/hb_task2a', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/srinjoy/hb_task2_ws/install/hb_task2a', 'merge_install': False, 'path': '/home/srinjoy/hb_task2_ws/src/hb_task2a', 'symlink_install': False, 'test_result_base': None}
+[1.682s] Level 5:colcon.colcon_core.verb:set package 'hb_task2b' build argument 'cmake_args' from command line to 'None'
+[1.682s] Level 5:colcon.colcon_core.verb:set package 'hb_task2b' build argument 'cmake_target' from command line to 'None'
+[1.682s] Level 5:colcon.colcon_core.verb:set package 'hb_task2b' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.682s] Level 5:colcon.colcon_core.verb:set package 'hb_task2b' build argument 'cmake_clean_cache' from command line to 'False'
+[1.682s] Level 5:colcon.colcon_core.verb:set package 'hb_task2b' build argument 'cmake_clean_first' from command line to 'False'
+[1.682s] Level 5:colcon.colcon_core.verb:set package 'hb_task2b' build argument 'cmake_force_configure' from command line to 'False'
+[1.682s] Level 5:colcon.colcon_core.verb:set package 'hb_task2b' build argument 'ament_cmake_args' from command line to 'None'
+[1.682s] Level 5:colcon.colcon_core.verb:set package 'hb_task2b' build argument 'catkin_cmake_args' from command line to 'None'
+[1.682s] Level 5:colcon.colcon_core.verb:set package 'hb_task2b' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.682s] DEBUG:colcon.colcon_core.verb:Building package 'hb_task2b' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/srinjoy/hb_task2_ws/build/hb_task2b', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/srinjoy/hb_task2_ws/install/hb_task2b', 'merge_install': False, 'path': '/home/srinjoy/hb_task2_ws/src/hb_task2b', 'symlink_install': False, 'test_result_base': None}
+[1.698s] Level 5:colcon.colcon_core.verb:set package 'hb_world' build argument 'cmake_args' from command line to 'None'
+[1.698s] Level 5:colcon.colcon_core.verb:set package 'hb_world' build argument 'cmake_target' from command line to 'None'
+[1.698s] Level 5:colcon.colcon_core.verb:set package 'hb_world' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.698s] Level 5:colcon.colcon_core.verb:set package 'hb_world' build argument 'cmake_clean_cache' from command line to 'False'
+[1.698s] Level 5:colcon.colcon_core.verb:set package 'hb_world' build argument 'cmake_clean_first' from command line to 'False'
+[1.699s] Level 5:colcon.colcon_core.verb:set package 'hb_world' build argument 'cmake_force_configure' from command line to 'False'
+[1.699s] Level 5:colcon.colcon_core.verb:set package 'hb_world' build argument 'ament_cmake_args' from command line to 'None'
+[1.699s] Level 5:colcon.colcon_core.verb:set package 'hb_world' build argument 'catkin_cmake_args' from command line to 'None'
+[1.699s] Level 5:colcon.colcon_core.verb:set package 'hb_world' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.699s] DEBUG:colcon.colcon_core.verb:Building package 'hb_world' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/srinjoy/hb_task2_ws/build/hb_world', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/srinjoy/hb_task2_ws/install/hb_world', 'merge_install': False, 'path': '/home/srinjoy/hb_task2_ws/src/hb_world', 'symlink_install': False, 'test_result_base': None}
+[1.714s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'cmake_args' from command line to 'None'
+[1.714s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'cmake_target' from command line to 'None'
+[1.714s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.714s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[1.714s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[1.714s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[1.714s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[1.714s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[1.714s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.714s] DEBUG:colcon.colcon_core.verb:Building package 'my_robot_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/srinjoy/hb_task2_ws/build/my_robot_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/srinjoy/hb_task2_ws/install/my_robot_interfaces', 'merge_install': False, 'path': '/home/srinjoy/hb_task2_ws/src/my_robot_interfaces', 'symlink_install': False, 'test_result_base': None}
+[1.730s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.747s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.747s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/srinjoy/hb_task2_ws/src/hb_bot' with build type 'ament_cmake'
+[1.747s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/srinjoy/hb_task2_ws/src/hb_bot'
+[1.764s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.765s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.765s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.817s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/srinjoy/hb_task2_ws/src/hb_task2a' with build type 'ament_python'
+[1.817s] Level 1:colcon.colcon_core.shell:create_environment_hook('hb_task2a', 'ament_prefix_path')
+[1.833s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/srinjoy/hb_task2_ws/install/hb_task2a/share/hb_task2a/hook/ament_prefix_path.ps1'
+[1.834s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/srinjoy/hb_task2_ws/install/hb_task2a/share/hb_task2a/hook/ament_prefix_path.dsv'
+[1.834s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/srinjoy/hb_task2_ws/install/hb_task2a/share/hb_task2a/hook/ament_prefix_path.sh'
+[1.851s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.851s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.903s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/srinjoy/hb_task2_ws/src/hb_task2b' with build type 'ament_python'
+[1.903s] Level 1:colcon.colcon_core.shell:create_environment_hook('hb_task2b', 'ament_prefix_path')
+[1.920s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/srinjoy/hb_task2_ws/install/hb_task2b/share/hb_task2b/hook/ament_prefix_path.ps1'
+[1.920s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/srinjoy/hb_task2_ws/install/hb_task2b/share/hb_task2b/hook/ament_prefix_path.dsv'
+[1.920s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/srinjoy/hb_task2_ws/install/hb_task2b/share/hb_task2b/hook/ament_prefix_path.sh'
+[1.936s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.936s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.988s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/srinjoy/hb_task2_ws/src/hb_world' with build type 'ament_cmake'
+[1.989s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/srinjoy/hb_task2_ws/src/hb_world'
+[2.006s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.006s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.057s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/srinjoy/hb_task2_ws/src/my_robot_interfaces' with build type 'ament_cmake'
+[2.057s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/srinjoy/hb_task2_ws/src/my_robot_interfaces'
+[2.072s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.072s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.129s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/srinjoy/hb_task2_ws/build/hb_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/srinjoy/ws_moveit/install/moveit_configs_utils:/opt/ros/humble /home/srinjoy/.local/bin/cmake --build /home/srinjoy/hb_task2_ws/build/hb_bot -- -j12 -l12
+[2.374s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/srinjoy/hb_task2_ws/src/hb_task2a'
+[2.405s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.405s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.698s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/srinjoy/hb_task2_ws/src/hb_task2b'
+[2.714s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.715s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.770s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/srinjoy/hb_task2_ws/build/hb_world': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/srinjoy/ws_moveit/install/moveit_configs_utils:/opt/ros/humble /home/srinjoy/.local/bin/cmake --build /home/srinjoy/hb_task2_ws/build/hb_world -- -j12 -l12
+[2.772s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/srinjoy/hb_task2_ws/build/hb_bot' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/srinjoy/ws_moveit/install/moveit_configs_utils:/opt/ros/humble /home/srinjoy/.local/bin/cmake --build /home/srinjoy/hb_task2_ws/build/hb_bot -- -j12 -l12
+[2.777s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/srinjoy/hb_task2_ws/build/my_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/srinjoy/ws_moveit/install/moveit_configs_utils:/opt/ros/humble /home/srinjoy/.local/bin/cmake --build /home/srinjoy/hb_task2_ws/build/my_robot_interfaces -- -j12 -l12
+[2.817s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/srinjoy/hb_task2_ws/build/hb_world' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/srinjoy/ws_moveit/install/moveit_configs_utils:/opt/ros/humble /home/srinjoy/.local/bin/cmake --build /home/srinjoy/hb_task2_ws/build/hb_world -- -j12 -l12
+[2.822s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/srinjoy/hb_task2_ws/build/my_robot_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/srinjoy/ws_moveit/install/moveit_configs_utils:/opt/ros/humble /home/srinjoy/.local/bin/cmake --build /home/srinjoy/hb_task2_ws/build/my_robot_interfaces -- -j12 -l12
+[2.858s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hb_bot)
+[2.884s] Level 1:colcon.colcon_core.environment:checking '/home/srinjoy/hb_task2_ws/install/hb_bot' for CMake module files
+[2.885s] Level 1:colcon.colcon_core.environment:checking '/home/srinjoy/hb_task2_ws/install/hb_bot' for CMake config files
+[2.886s] Level 1:colcon.colcon_core.shell:create_environment_hook('hb_bot', 'cmake_prefix_path')
+[2.911s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/srinjoy/hb_task2_ws/install/hb_bot/share/hb_bot/hook/cmake_prefix_path.ps1'
+[2.912s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/srinjoy/hb_task2_ws/install/hb_bot/share/hb_bot/hook/cmake_prefix_path.dsv'
+[2.913s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/srinjoy/hb_task2_ws/install/hb_bot/share/hb_bot/hook/cmake_prefix_path.sh'
+[2.913s] Level 1:colcon.colcon_core.environment:checking '/home/srinjoy/hb_task2_ws/install/hb_bot/lib'
+[2.914s] Level 1:colcon.colcon_core.environment:checking '/home/srinjoy/hb_task2_ws/install/hb_bot/bin'
+[2.914s] Level 1:colcon.colcon_core.environment:checking '/home/srinjoy/hb_task2_ws/install/hb_bot/lib/pkgconfig/hb_bot.pc'
+[2.914s] Level 1:colcon.colcon_core.environment:checking '/home/srinjoy/hb_task2_ws/install/hb_bot/lib/python3.10/site-packages'
+[2.914s] Level 1:colcon.colcon_core.environment:checking '/home/srinjoy/hb_task2_ws/install/hb_bot/bin'
+[2.935s] INFO:colcon.colcon_core.shell:Creating package script '/home/srinjoy/hb_task2_ws/install/hb_bot/share/hb_bot/package.ps1'
+[2.936s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/srinjoy/hb_task2_ws/install/hb_bot/share/hb_bot/package.dsv'
+[2.936s] INFO:colcon.colcon_core.shell:Creating package script '/home/srinjoy/hb_task2_ws/install/hb_bot/share/hb_bot/package.sh'
+[2.937s] INFO:colcon.colcon_core.shell:Creating package script '/home/srinjoy/hb_task2_ws/install/hb_bot/share/hb_bot/package.bash'
+[2.938s] INFO:colcon.colcon_core.shell:Creating package script '/home/srinjoy/hb_task2_ws/install/hb_bot/share/hb_bot/package.zsh'
+[2.939s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/srinjoy/hb_task2_ws/install/hb_bot/share/colcon-core/packages/hb_bot)
+[3.174s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.175s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.175s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[3.175s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.195s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.195s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.195s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.209s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.224s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/srinjoy/hb_task2_ws/install/local_setup.ps1'
+[3.225s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/srinjoy/hb_task2_ws/install/_local_setup_util_ps1.py'
+[3.226s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/srinjoy/hb_task2_ws/install/setup.ps1'
+[3.243s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/srinjoy/hb_task2_ws/install/local_setup.sh'
+[3.243s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/srinjoy/hb_task2_ws/install/_local_setup_util_sh.py'
+[3.244s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/srinjoy/hb_task2_ws/install/setup.sh'
+[3.261s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/srinjoy/hb_task2_ws/install/local_setup.bash'
+[3.261s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/srinjoy/hb_task2_ws/install/setup.bash'
+[3.278s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/srinjoy/hb_task2_ws/install/local_setup.zsh'
+[3.279s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/srinjoy/hb_task2_ws/install/setup.zsh'

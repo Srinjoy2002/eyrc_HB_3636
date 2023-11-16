@@ -1,0 +1,61 @@
+[0.512s] Invoking command in '/home/srinjoy/hb_task2_ws/build/hb_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/srinjoy/hb_task2_ws/install/hb_task2b:/home/srinjoy/hb_task2_ws/install/hb_task2a:/home/srinjoy/ws_moveit/install/moveit_configs_utils:/opt/ros/humble /home/srinjoy/.local/bin/cmake /home/srinjoy/hb_task2_ws/src/eYRC-2023_Hologlyph_Bots/hb_bot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/srinjoy/hb_task2_ws/install/hb_bot
+[1.208s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.208s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.209s] -- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+[1.209s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.209s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.209s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.209s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.209s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.209s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.209s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.209s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.304s] -- Found rclpy: 3.3.10 (/opt/ros/humble/share/rclpy/cmake)
+[1.304s] -- Found urdf: 2.6.0 (/opt/ros/humble/share/urdf/cmake)
+[1.337s] -- Found xacro: 2.0.8 (/opt/ros/humble/share/xacro/cmake)
+[1.337s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.418s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.419s] -- Added test 'lint_cmake' to check CMake code style
+[1.419s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.421s] -- Added test 'xmllint' to check XML markup files
+[1.422s] -- Configuring done (0.9s)
+[1.429s] -- Generating done (0.0s)
+[1.431s] -- Build files have been written to: /home/srinjoy/hb_task2_ws/build/hb_bot
+[1.448s] Invoked command in '/home/srinjoy/hb_task2_ws/build/hb_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/srinjoy/hb_task2_ws/install/hb_task2b:/home/srinjoy/hb_task2_ws/install/hb_task2a:/home/srinjoy/ws_moveit/install/moveit_configs_utils:/opt/ros/humble /home/srinjoy/.local/bin/cmake /home/srinjoy/hb_task2_ws/src/eYRC-2023_Hologlyph_Bots/hb_bot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/srinjoy/hb_task2_ws/install/hb_bot
+[1.451s] Invoking command in '/home/srinjoy/hb_task2_ws/build/hb_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/srinjoy/hb_task2_ws/install/hb_task2b:/home/srinjoy/hb_task2_ws/install/hb_task2a:/home/srinjoy/ws_moveit/install/moveit_configs_utils:/opt/ros/humble /home/srinjoy/.local/bin/cmake --build /home/srinjoy/hb_task2_ws/build/hb_bot -- -j12 -l12
+[1.512s] Invoked command in '/home/srinjoy/hb_task2_ws/build/hb_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/srinjoy/hb_task2_ws/install/hb_task2b:/home/srinjoy/hb_task2_ws/install/hb_task2a:/home/srinjoy/ws_moveit/install/moveit_configs_utils:/opt/ros/humble /home/srinjoy/.local/bin/cmake --build /home/srinjoy/hb_task2_ws/build/hb_bot -- -j12 -l12
+[1.614s] Invoking command in '/home/srinjoy/hb_task2_ws/build/hb_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/srinjoy/hb_task2_ws/install/hb_task2b:/home/srinjoy/hb_task2_ws/install/hb_task2a:/home/srinjoy/ws_moveit/install/moveit_configs_utils:/opt/ros/humble /home/srinjoy/.local/bin/cmake --install /home/srinjoy/hb_task2_ws/build/hb_bot
+[1.643s] -- Install configuration: ""
+[1.643s] -- Execute custom install script
+[1.644s] -- Symlinking: /home/srinjoy/hb_task2_ws/install/hb_bot/share/hb_bot//launch/Spawn_bot.launch.py
+[1.649s] -- Symlinking: /home/srinjoy/hb_task2_ws/install/hb_bot/share/hb_bot//launch/multi_bot_spawn.launch.py
+[1.655s] -- Symlinking: /home/srinjoy/hb_task2_ws/install/hb_bot/share/hb_bot//meshes/bot_1.dae
+[1.661s] -- Symlinking: /home/srinjoy/hb_task2_ws/install/hb_bot/share/hb_bot//meshes/bot_1.jpg
+[1.666s] -- Symlinking: /home/srinjoy/hb_task2_ws/install/hb_bot/share/hb_bot//meshes/bot_1.jpg.001.jpg
+[1.671s] -- Symlinking: /home/srinjoy/hb_task2_ws/install/hb_bot/share/hb_bot//meshes/bot_2.dae
+[1.678s] -- Symlinking: /home/srinjoy/hb_task2_ws/install/hb_bot/share/hb_bot//meshes/bot_2.jpg
+[1.683s] -- Symlinking: /home/srinjoy/hb_task2_ws/install/hb_bot/share/hb_bot//meshes/bot_2.jpg.001.jpg
+[1.688s] -- Symlinking: /home/srinjoy/hb_task2_ws/install/hb_bot/share/hb_bot//meshes/bot_3.dae
+[1.695s] -- Symlinking: /home/srinjoy/hb_task2_ws/install/hb_bot/share/hb_bot//meshes/bot_3.jpg
+[1.701s] -- Symlinking: /home/srinjoy/hb_task2_ws/install/hb_bot/share/hb_bot//meshes/bot_3.jpg.001.jpg
+[1.705s] -- Symlinking: /home/srinjoy/hb_task2_ws/install/hb_bot/share/hb_bot//meshes/wheel.stl
+[1.711s] -- Symlinking: /home/srinjoy/hb_task2_ws/install/hb_bot/share/hb_bot//urdf/hb_bot_1.urdf.xacro
+[1.717s] -- Symlinking: /home/srinjoy/hb_task2_ws/install/hb_bot/share/hb_bot//urdf/hb_bot_2.urdf.xacro
+[1.722s] -- Symlinking: /home/srinjoy/hb_task2_ws/install/hb_bot/share/hb_bot//urdf/hb_bot_3.urdf.xacro
+[1.727s] -- Symlinking: /home/srinjoy/hb_task2_ws/install/hb_bot/share/hb_bot//urdf/materials.xacro
+[1.734s] -- Symlinking: /home/srinjoy/hb_task2_ws/install/hb_bot/share/ament_index/resource_index/package_run_dependencies/hb_bot
+[1.739s] -- Symlinking: /home/srinjoy/hb_task2_ws/install/hb_bot/share/ament_index/resource_index/parent_prefix_path/hb_bot
+[1.745s] -- Symlinking: /home/srinjoy/hb_task2_ws/install/hb_bot/share/hb_bot/environment/ament_prefix_path.sh
+[1.751s] -- Symlinking: /home/srinjoy/hb_task2_ws/install/hb_bot/share/hb_bot/environment/ament_prefix_path.dsv
+[1.757s] -- Symlinking: /home/srinjoy/hb_task2_ws/install/hb_bot/share/hb_bot/environment/path.sh
+[1.762s] -- Symlinking: /home/srinjoy/hb_task2_ws/install/hb_bot/share/hb_bot/environment/path.dsv
+[1.768s] -- Symlinking: /home/srinjoy/hb_task2_ws/install/hb_bot/share/hb_bot/local_setup.bash
+[1.774s] -- Symlinking: /home/srinjoy/hb_task2_ws/install/hb_bot/share/hb_bot/local_setup.sh
+[1.778s] -- Symlinking: /home/srinjoy/hb_task2_ws/install/hb_bot/share/hb_bot/local_setup.zsh
+[1.783s] -- Symlinking: /home/srinjoy/hb_task2_ws/install/hb_bot/share/hb_bot/local_setup.dsv
+[1.788s] -- Symlinking: /home/srinjoy/hb_task2_ws/install/hb_bot/share/hb_bot/package.dsv
+[1.794s] -- Symlinking: /home/srinjoy/hb_task2_ws/install/hb_bot/share/ament_index/resource_index/packages/hb_bot
+[1.800s] -- Symlinking: /home/srinjoy/hb_task2_ws/install/hb_bot/share/hb_bot/cmake/hb_botConfig.cmake
+[1.805s] -- Symlinking: /home/srinjoy/hb_task2_ws/install/hb_bot/share/hb_bot/cmake/hb_botConfig-version.cmake
+[1.811s] -- Symlinking: /home/srinjoy/hb_task2_ws/install/hb_bot/share/hb_bot/package.xml
+[1.824s] Invoked command in '/home/srinjoy/hb_task2_ws/build/hb_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/srinjoy/hb_task2_ws/install/hb_task2b:/home/srinjoy/hb_task2_ws/install/hb_task2a:/home/srinjoy/ws_moveit/install/moveit_configs_utils:/opt/ros/humble /home/srinjoy/.local/bin/cmake --install /home/srinjoy/hb_task2_ws/build/hb_bot

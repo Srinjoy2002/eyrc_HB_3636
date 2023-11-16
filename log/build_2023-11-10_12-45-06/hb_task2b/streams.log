@@ -1,0 +1,48 @@
+[1.287s] Invoking command in '/home/srinjoy/hb_task2_ws/src/eYRC-2023_Hologlyph_Bots/hb_task2b': PYTHONPATH=/home/srinjoy/hb_task2_ws/build/hb_task2b/prefix_override:/home/srinjoy/hb_task2_ws/install/hb_task2b/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/hb_task2b build --build-base /home/srinjoy/hb_task2_ws/build/hb_task2b/build install --record /home/srinjoy/hb_task2_ws/build/hb_task2b/install.log --single-version-externally-managed
+[1.525s] running egg_info
+[1.525s] creating ../../../build/hb_task2b/hb_task2b.egg-info
+[1.525s] writing ../../../build/hb_task2b/hb_task2b.egg-info/PKG-INFO
+[1.526s] writing dependency_links to ../../../build/hb_task2b/hb_task2b.egg-info/dependency_links.txt
+[1.526s] writing entry points to ../../../build/hb_task2b/hb_task2b.egg-info/entry_points.txt
+[1.526s] writing requirements to ../../../build/hb_task2b/hb_task2b.egg-info/requires.txt
+[1.526s] writing top-level names to ../../../build/hb_task2b/hb_task2b.egg-info/top_level.txt
+[1.526s] writing manifest file '../../../build/hb_task2b/hb_task2b.egg-info/SOURCES.txt'
+[1.528s] reading manifest file '../../../build/hb_task2b/hb_task2b.egg-info/SOURCES.txt'
+[1.529s] writing manifest file '../../../build/hb_task2b/hb_task2b.egg-info/SOURCES.txt'
+[1.529s] running build
+[1.529s] running build_py
+[1.529s] creating /home/srinjoy/hb_task2_ws/build/hb_task2b/build
+[1.529s] creating /home/srinjoy/hb_task2_ws/build/hb_task2b/build/lib
+[1.530s] creating /home/srinjoy/hb_task2_ws/build/hb_task2b/build/lib/hb_task2b
+[1.530s] copying hb_task2b/nextGoalPub.py -> /home/srinjoy/hb_task2_ws/build/hb_task2b/build/lib/hb_task2b
+[1.530s] copying hb_task2b/__init__.py -> /home/srinjoy/hb_task2_ws/build/hb_task2b/build/lib/hb_task2b
+[1.530s] copying hb_task2b/bot_controller.py -> /home/srinjoy/hb_task2_ws/build/hb_task2b/build/lib/hb_task2b
+[1.530s] running install
+[1.530s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.530s]   warnings.warn(
+[1.530s] running install_lib
+[1.532s] creating /home/srinjoy/hb_task2_ws/install/hb_task2b/lib/python3.10/site-packages/hb_task2b
+[1.532s] copying /home/srinjoy/hb_task2_ws/build/hb_task2b/build/lib/hb_task2b/nextGoalPub.py -> /home/srinjoy/hb_task2_ws/install/hb_task2b/lib/python3.10/site-packages/hb_task2b
+[1.532s] copying /home/srinjoy/hb_task2_ws/build/hb_task2b/build/lib/hb_task2b/__init__.py -> /home/srinjoy/hb_task2_ws/install/hb_task2b/lib/python3.10/site-packages/hb_task2b
+[1.532s] copying /home/srinjoy/hb_task2_ws/build/hb_task2b/build/lib/hb_task2b/bot_controller.py -> /home/srinjoy/hb_task2_ws/install/hb_task2b/lib/python3.10/site-packages/hb_task2b
+[1.532s] byte-compiling /home/srinjoy/hb_task2_ws/install/hb_task2b/lib/python3.10/site-packages/hb_task2b/nextGoalPub.py to nextGoalPub.cpython-310.pyc
+[1.534s] byte-compiling /home/srinjoy/hb_task2_ws/install/hb_task2b/lib/python3.10/site-packages/hb_task2b/__init__.py to __init__.cpython-310.pyc
+[1.534s] byte-compiling /home/srinjoy/hb_task2_ws/install/hb_task2b/lib/python3.10/site-packages/hb_task2b/bot_controller.py to bot_controller.cpython-310.pyc
+[1.534s] running install_data
+[1.535s] creating /home/srinjoy/hb_task2_ws/install/hb_task2b/share/ament_index
+[1.536s] creating /home/srinjoy/hb_task2_ws/install/hb_task2b/share/ament_index/resource_index
+[1.536s] creating /home/srinjoy/hb_task2_ws/install/hb_task2b/share/ament_index/resource_index/packages
+[1.536s] copying resource/hb_task2b -> /home/srinjoy/hb_task2_ws/install/hb_task2b/share/ament_index/resource_index/packages
+[1.536s] copying package.xml -> /home/srinjoy/hb_task2_ws/install/hb_task2b/share/hb_task2b
+[1.536s] creating /home/srinjoy/hb_task2_ws/install/hb_task2b/share/hb_task2b/launch
+[1.536s] copying launch/task2b.launch.py -> /home/srinjoy/hb_task2_ws/install/hb_task2b/share/hb_task2b/launch
+[1.536s] copying launch/controller.launch.py -> /home/srinjoy/hb_task2_ws/install/hb_task2b/share/hb_task2b/launch
+[1.536s] copying launch/submission.launch.py -> /home/srinjoy/hb_task2_ws/install/hb_task2b/share/hb_task2b/launch
+[1.536s] creating /home/srinjoy/hb_task2_ws/install/hb_task2b/share/hb_task2b/scripts
+[1.536s] running install_egg_info
+[1.538s] Copying ../../../build/hb_task2b/hb_task2b.egg-info to /home/srinjoy/hb_task2_ws/install/hb_task2b/lib/python3.10/site-packages/hb_task2b-0.0.0-py3.10.egg-info
+[1.539s] running install_scripts
+[1.560s] Installing controller script to /home/srinjoy/hb_task2_ws/install/hb_task2b/lib/hb_task2b
+[1.560s] Installing nextgoalpub script to /home/srinjoy/hb_task2_ws/install/hb_task2b/lib/hb_task2b
+[1.560s] writing list of installed files to '/home/srinjoy/hb_task2_ws/build/hb_task2b/install.log'
+[1.641s] Invoked command in '/home/srinjoy/hb_task2_ws/src/eYRC-2023_Hologlyph_Bots/hb_task2b' returned '0': PYTHONPATH=/home/srinjoy/hb_task2_ws/build/hb_task2b/prefix_override:/home/srinjoy/hb_task2_ws/install/hb_task2b/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/hb_task2b build --build-base /home/srinjoy/hb_task2_ws/build/hb_task2b/build install --record /home/srinjoy/hb_task2_ws/build/hb_task2b/install.log --single-version-externally-managed

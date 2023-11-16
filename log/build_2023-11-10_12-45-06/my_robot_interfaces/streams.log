@@ -1,0 +1,332 @@
+[0.717s] Invoking command in '/home/srinjoy/hb_task2_ws/build/my_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/srinjoy/ws_moveit/install/moveit_configs_utils:/opt/ros/humble /home/srinjoy/.local/bin/cmake /home/srinjoy/hb_task2_ws/src/eYRC-2023_Hologlyph_Bots/my_robot_interfaces -DCMAKE_INSTALL_PREFIX=/home/srinjoy/hb_task2_ws/install/my_robot_interfaces
+[0.811s] -- The C compiler identification is GNU 11.4.0
+[0.886s] -- The CXX compiler identification is GNU 11.4.0
+[0.907s] -- Detecting C compiler ABI info
+[1.003s] -- Detecting C compiler ABI info - done
+[1.014s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.015s] -- Detecting C compile features
+[1.015s] -- Detecting C compile features - done
+[1.030s] -- Detecting CXX compiler ABI info
+[1.147s] -- Detecting CXX compiler ABI info - done
+[1.163s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.164s] -- Detecting CXX compile features
+[1.164s] -- Detecting CXX compile features - done
+[1.171s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.713s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.849s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.861s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.879s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.963s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.440s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.875s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.418s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.422s] [33mCMake Warning (dev) at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:20 (find_package):
+[3.423s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[3.423s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[3.423s]   the cmake_policy command to set the policy and suppress this warning.
+[3.423s] 
+[3.423s] Call Stack (most recent call first):
+[3.423s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[3.423s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[3.424s]   CMakeLists.txt:16 (rosidl_generate_interfaces)
+[3.424s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[3.424s] [0m
+[3.451s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[3.465s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[3.466s] [33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:52 (find_package):
+[3.466s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[3.466s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[3.467s]   the cmake_policy command to set the policy and suppress this warning.
+[3.467s] 
+[3.467s] Call Stack (most recent call first):
+[3.467s]   /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[3.467s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[3.467s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[3.467s]   CMakeLists.txt:16 (rosidl_generate_interfaces)
+[3.467s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[3.467s] [0m
+[3.491s] [33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:140 (find_package):
+[3.491s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[3.491s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[3.491s]   the cmake_policy command to set the policy and suppress this warning.
+[3.491s] 
+[3.491s] Call Stack (most recent call first):
+[3.491s]   /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[3.492s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[3.492s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[3.492s]   CMakeLists.txt:16 (rosidl_generate_interfaces)
+[3.492s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[3.492s] [0m
+[3.509s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[3.509s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.509s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[3.509s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[3.531s] -- Found PythonExtra: .so  
+[3.589s] -- Configuring done (2.8s)
+[3.623s] -- Generating done (0.0s)
+[3.626s] -- Build files have been written to: /home/srinjoy/hb_task2_ws/build/my_robot_interfaces
+[3.638s] Invoked command in '/home/srinjoy/hb_task2_ws/build/my_robot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/srinjoy/ws_moveit/install/moveit_configs_utils:/opt/ros/humble /home/srinjoy/.local/bin/cmake /home/srinjoy/hb_task2_ws/src/eYRC-2023_Hologlyph_Bots/my_robot_interfaces -DCMAKE_INSTALL_PREFIX=/home/srinjoy/hb_task2_ws/install/my_robot_interfaces
+[3.641s] Invoking command in '/home/srinjoy/hb_task2_ws/build/my_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/srinjoy/ws_moveit/install/moveit_configs_utils:/opt/ros/humble /home/srinjoy/.local/bin/cmake --build /home/srinjoy/hb_task2_ws/build/my_robot_interfaces -- -j12 -l12
+[3.691s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[3.700s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.706s] [  4%] Built target ament_cmake_python_copy_my_robot_interfaces
+[3.944s] running egg_info
+[3.944s] creating my_robot_interfaces.egg-info
+[3.945s] writing my_robot_interfaces.egg-info/PKG-INFO
+[3.945s] writing dependency_links to my_robot_interfaces.egg-info/dependency_links.txt
+[3.945s] writing top-level names to my_robot_interfaces.egg-info/top_level.txt
+[3.945s] writing manifest file 'my_robot_interfaces.egg-info/SOURCES.txt'
+[3.948s] reading manifest file 'my_robot_interfaces.egg-info/SOURCES.txt'
+[3.949s] writing manifest file 'my_robot_interfaces.egg-info/SOURCES.txt'
+[3.983s] [  4%] Built target ament_cmake_python_build_my_robot_interfaces_egg
+[4.000s] [  4%] Built target my_robot_interfaces__cpp
+[4.009s] [  6%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[4.009s] [  8%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[4.012s] [ 10%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[4.025s] [ 14%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/srv/detail/next_goal__functions.c.o[0m
+[4.025s] [ 14%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/shape__functions.c.o[0m
+[4.025s] [ 17%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/goal__functions.c.o[0m
+[4.082s] [ 19%] [32m[1mLinking C shared library libmy_robot_interfaces__rosidl_generator_c.so[0m
+[4.116s] [ 19%] Built target my_robot_interfaces__rosidl_generator_c
+[4.125s] [ 21%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[4.125s] [ 23%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[4.125s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[4.274s] [ 27%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_robot_interfaces/srv/next_goal__type_support.cpp.o[0m
+[4.276s] [ 29%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_robot_interfaces/msg/shape__type_support.cpp.o[0m
+[4.276s] [ 31%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_robot_interfaces/msg/goal__type_support.cpp.o[0m
+[4.312s] [ 34%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_robot_interfaces/srv/detail/next_goal__type_support.cpp.o[0m
+[4.312s] [ 36%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_robot_interfaces/msg/detail/shape__type_support.cpp.o[0m
+[4.313s] [ 38%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_robot_interfaces/msg/detail/goal__type_support.cpp.o[0m
+[4.351s] [ 42%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/msg/detail/dds_fastrtps/shape__type_support.cpp.o[0m
+[4.351s] [ 42%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/srv/detail/dds_fastrtps/next_goal__type_support.cpp.o[0m
+[4.351s] [ 44%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/msg/detail/dds_fastrtps/goal__type_support.cpp.o[0m
+[4.505s] [ 46%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_robot_interfaces/srv/next_goal__type_support.cpp.o[0m
+[4.570s] [ 48%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_robot_interfaces/msg/goal__type_support.cpp.o[0m
+[4.578s] [ 51%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_robot_interfaces/srv/detail/next_goal__type_support_c.cpp.o[0m
+[4.624s] [ 53%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_robot_interfaces/msg/shape__type_support.cpp.o[0m
+[4.639s] [ 55%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/srv/detail/next_goal__type_support.c.o[0m
+[4.656s] [ 57%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/goal__type_support_c.cpp.o[0m
+[4.678s] [ 59%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/shape__type_support_c.cpp.o[0m
+[4.680s] [ 61%] [32m[1mLinking CXX shared library libmy_robot_interfaces__rosidl_typesupport_cpp.so[0m
+[4.680s] [ 63%] [32m[1mLinking CXX shared library libmy_robot_interfaces__rosidl_typesupport_c.so[0m
+[4.703s] [ 65%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/goal__type_support.c.o[0m
+[4.744s] [ 65%] Built target my_robot_interfaces__rosidl_typesupport_cpp
+[4.747s] [ 65%] Built target my_robot_interfaces__rosidl_typesupport_c
+[4.755s] [ 68%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/shape__type_support.c.o[0m
+[4.799s] [ 70%] [32m[1mLinking C shared library libmy_robot_interfaces__rosidl_typesupport_introspection_c.so[0m
+[4.833s] [ 70%] Built target my_robot_interfaces__rosidl_typesupport_introspection_c
+[4.958s] [ 72%] [32m[1mLinking CXX shared library libmy_robot_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[4.992s] [ 74%] [32m[1mLinking CXX shared library libmy_robot_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[5.075s] [ 74%] Built target my_robot_interfaces__rosidl_typesupport_introspection_cpp
+[5.093s] [ 76%] [32m[1mLinking CXX shared library libmy_robot_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[5.100s] [ 76%] Built target my_robot_interfaces__rosidl_typesupport_fastrtps_cpp
+[5.189s] [ 76%] Built target my_robot_interfaces__rosidl_typesupport_fastrtps_c
+[5.208s] [ 76%] Built target my_robot_interfaces
+[5.229s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[5.656s] [ 78%] Built target my_robot_interfaces__py
+[5.675s] [ 80%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_robot_interfaces/srv/_next_goal_s.c.o[0m
+[5.675s] [ 82%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_robot_interfaces/msg/_goal_s.c.o[0m
+[5.677s] [ 85%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_robot_interfaces/msg/_shape_s.c.o[0m
+[5.779s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/my_robot_interfaces/libmy_robot_interfaces__rosidl_generator_py.so[0m
+[5.818s] [ 87%] Built target my_robot_interfaces__rosidl_generator_py
+[5.836s] [ 89%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[5.836s] [ 91%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[5.836s] [ 93%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[5.929s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.931s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.935s] [100%] [32m[1mLinking C shared library rosidl_generator_py/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.959s] [100%] Built target my_robot_interfaces__rosidl_typesupport_c__pyext
+[5.961s] [100%] Built target my_robot_interfaces__rosidl_typesupport_introspection_c__pyext
+[5.968s] [100%] Built target my_robot_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[5.983s] Invoked command in '/home/srinjoy/hb_task2_ws/build/my_robot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/srinjoy/ws_moveit/install/moveit_configs_utils:/opt/ros/humble /home/srinjoy/.local/bin/cmake --build /home/srinjoy/hb_task2_ws/build/my_robot_interfaces -- -j12 -l12
+[6.230s] Invoking command in '/home/srinjoy/hb_task2_ws/build/my_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/srinjoy/ws_moveit/install/moveit_configs_utils:/opt/ros/humble /home/srinjoy/.local/bin/cmake --install /home/srinjoy/hb_task2_ws/build/my_robot_interfaces
+[6.257s] -- Install configuration: ""
+[6.258s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/share/ament_index/resource_index/rosidl_interfaces/my_robot_interfaces
+[6.258s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces
+[6.258s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg
+[6.258s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail
+[6.259s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/goal__functions.c
+[6.259s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/goal__functions.h
+[6.259s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/shape__struct.h
+[6.259s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/shape__functions.h
+[6.259s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/shape__type_support.h
+[6.259s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/goal__type_support.h
+[6.259s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/goal__struct.h
+[6.260s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/shape__functions.c
+[6.260s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/shape.h
+[6.260s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_generator_c__visibility_control.h
+[6.260s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/goal.h
+[6.260s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv
+[6.260s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail
+[6.260s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/next_goal__type_support.h
+[6.260s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/next_goal__struct.h
+[6.260s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/next_goal__functions.h
+[6.260s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/next_goal__functions.c
+[6.260s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/next_goal.h
+[6.260s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/library_path.sh
+[6.260s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/library_path.dsv
+[6.260s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_generator_c.so
+[6.261s] -- Set runtime path of "/home/srinjoy/hb_task2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_generator_c.so" to ""
+[6.261s] -- Up-to-date: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces
+[6.261s] -- Up-to-date: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg
+[6.261s] -- Up-to-date: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail
+[6.261s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/shape__rosidl_typesupport_fastrtps_c.h
+[6.261s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/goal__rosidl_typesupport_fastrtps_c.h
+[6.261s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[6.262s] -- Up-to-date: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv
+[6.262s] -- Up-to-date: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail
+[6.262s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/next_goal__rosidl_typesupport_fastrtps_c.h
+[6.262s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_c.so
+[6.262s] -- Set runtime path of "/home/srinjoy/hb_task2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[6.262s] -- Up-to-date: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces
+[6.262s] -- Up-to-date: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg
+[6.262s] -- Up-to-date: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail
+[6.262s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/goal__rosidl_typesupport_introspection_c.h
+[6.262s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/shape__rosidl_typesupport_introspection_c.h
+[6.262s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/goal__type_support.c
+[6.263s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/shape__type_support.c
+[6.263s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[6.263s] -- Up-to-date: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv
+[6.263s] -- Up-to-date: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail
+[6.263s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/next_goal__rosidl_typesupport_introspection_c.h
+[6.263s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/next_goal__type_support.c
+[6.263s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_c.so
+[6.264s] -- Set runtime path of "/home/srinjoy/hb_task2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[6.264s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_c.so
+[6.264s] -- Set runtime path of "/home/srinjoy/hb_task2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_c.so" to ""
+[6.264s] -- Up-to-date: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces
+[6.264s] -- Up-to-date: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg
+[6.264s] -- Up-to-date: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail
+[6.264s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/shape__traits.hpp
+[6.264s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/goal__traits.hpp
+[6.264s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/goal__struct.hpp
+[6.265s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/shape__builder.hpp
+[6.265s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/shape__struct.hpp
+[6.265s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/goal__builder.hpp
+[6.265s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/shape.hpp
+[6.265s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/goal.hpp
+[6.265s] -- Up-to-date: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv
+[6.265s] -- Up-to-date: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail
+[6.265s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/next_goal__builder.hpp
+[6.265s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/next_goal__struct.hpp
+[6.265s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/next_goal__traits.hpp
+[6.266s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/next_goal.hpp
+[6.266s] -- Up-to-date: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces
+[6.266s] -- Up-to-date: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg
+[6.266s] -- Up-to-date: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail
+[6.266s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/shape__rosidl_typesupport_fastrtps_cpp.hpp
+[6.266s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/dds_fastrtps
+[6.266s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/goal__rosidl_typesupport_fastrtps_cpp.hpp
+[6.266s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[6.266s] -- Up-to-date: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv
+[6.266s] -- Up-to-date: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail
+[6.266s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/next_goal__rosidl_typesupport_fastrtps_cpp.hpp
+[6.266s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/dds_fastrtps
+[6.267s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[6.267s] -- Set runtime path of "/home/srinjoy/hb_task2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[6.267s] -- Up-to-date: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces
+[6.267s] -- Up-to-date: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg
+[6.267s] -- Up-to-date: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail
+[6.267s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/goal__rosidl_typesupport_introspection_cpp.hpp
+[6.267s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/shape__rosidl_typesupport_introspection_cpp.hpp
+[6.267s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/shape__type_support.cpp
+[6.268s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/goal__type_support.cpp
+[6.268s] -- Up-to-date: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv
+[6.268s] -- Up-to-date: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail
+[6.268s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/next_goal__rosidl_typesupport_introspection_cpp.hpp
+[6.268s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/next_goal__type_support.cpp
+[6.268s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_cpp.so
+[6.268s] -- Set runtime path of "/home/srinjoy/hb_task2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[6.269s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_cpp.so
+[6.269s] -- Set runtime path of "/home/srinjoy/hb_task2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_cpp.so" to ""
+[6.269s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/pythonpath.sh
+[6.269s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/pythonpath.dsv
+[6.269s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces-0.0.0-py3.10.egg-info
+[6.269s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[6.270s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[6.270s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[6.270s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[6.270s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces
+[6.270s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/msg
+[6.270s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/msg/__init__.py
+[6.270s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/msg/_shape.py
+[6.270s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/msg/_shape_s.c
+[6.270s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/msg/_goal_s.c
+[6.271s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/msg/_goal.py
+[6.271s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_c.c
+[6.271s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/libmy_robot_interfaces__rosidl_generator_py.so
+[6.271s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[6.271s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[6.271s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/__init__.py
+[6.271s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[6.272s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[6.272s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[6.272s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/srv
+[6.272s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/srv/__init__.py
+[6.272s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/srv/_next_goal_s.c
+[6.272s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/srv/_next_goal.py
+[6.304s] Listing '/home/srinjoy/hb_task2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces'...
+[6.304s] Compiling '/home/srinjoy/hb_task2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/__init__.py'...
+[6.304s] Listing '/home/srinjoy/hb_task2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/msg'...
+[6.305s] Compiling '/home/srinjoy/hb_task2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/msg/__init__.py'...
+[6.305s] Compiling '/home/srinjoy/hb_task2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/msg/_goal.py'...
+[6.305s] Compiling '/home/srinjoy/hb_task2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/msg/_shape.py'...
+[6.305s] Listing '/home/srinjoy/hb_task2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/srv'...
+[6.305s] Compiling '/home/srinjoy/hb_task2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/srv/__init__.py'...
+[6.305s] Compiling '/home/srinjoy/hb_task2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/srv/_next_goal.py'...
+[6.309s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[6.310s] -- Set runtime path of "/home/srinjoy/hb_task2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[6.310s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[6.311s] -- Set runtime path of "/home/srinjoy/hb_task2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[6.311s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[6.311s] -- Set runtime path of "/home/srinjoy/hb_task2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[6.311s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_generator_py.so
+[6.312s] -- Set runtime path of "/home/srinjoy/hb_task2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_generator_py.so" to ""
+[6.312s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/share/my_robot_interfaces/srv/NextGoal.idl
+[6.312s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/share/my_robot_interfaces/msg/Goal.idl
+[6.312s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/share/my_robot_interfaces/msg/Shape.idl
+[6.312s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/share/my_robot_interfaces/srv/NextGoal.srv
+[6.312s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/share/my_robot_interfaces/srv/NextGoal_Request.msg
+[6.313s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/share/my_robot_interfaces/srv/NextGoal_Response.msg
+[6.313s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/share/my_robot_interfaces/msg/Goal.msg
+[6.313s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/share/my_robot_interfaces/msg/Shape.msg
+[6.313s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/share/ament_index/resource_index/package_run_dependencies/my_robot_interfaces
+[6.313s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/share/ament_index/resource_index/parent_prefix_path/my_robot_interfaces
+[6.313s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/ament_prefix_path.sh
+[6.314s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/ament_prefix_path.dsv
+[6.314s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/path.sh
+[6.314s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/path.dsv
+[6.314s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.bash
+[6.314s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.sh
+[6.314s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.zsh
+[6.314s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.dsv
+[6.315s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.dsv
+[6.315s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/share/ament_index/resource_index/packages/my_robot_interfaces
+[6.315s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_cExport.cmake
+[6.315s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_cExport-noconfig.cmake
+[6.315s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[6.315s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[6.316s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[6.316s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[6.316s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cExport.cmake
+[6.316s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[6.316s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_cppExport.cmake
+[6.316s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[6.317s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[6.317s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[6.317s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[6.317s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cppExport.cmake
+[6.317s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[6.317s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_pyExport.cmake
+[6.318s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[6.318s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/rosidl_cmake-extras.cmake
+[6.318s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.318s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[6.318s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[6.318s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[6.318s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.319s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[6.319s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfacesConfig.cmake
+[6.319s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfacesConfig-version.cmake
+[6.319s] -- Installing: /home/srinjoy/hb_task2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.xml
+[6.326s] Invoked command in '/home/srinjoy/hb_task2_ws/build/my_robot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/srinjoy/ws_moveit/install/moveit_configs_utils:/opt/ros/humble /home/srinjoy/.local/bin/cmake --install /home/srinjoy/hb_task2_ws/build/my_robot_interfaces
