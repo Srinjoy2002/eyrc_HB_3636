@@ -1,5 +1,0 @@
-[0.781s] Invoking command in '/home/srinjoy/hb_task2_ws/build/hb_world': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/srinjoy/ws_moveit/install/moveit_configs_utils:/opt/ros/humble /home/srinjoy/.local/bin/cmake --build /home/srinjoy/hb_task2_ws/build/hb_world -- -j12 -l12
-[0.819s] [0mCMake Error: The source directory "/home/srinjoy/hb_task2_ws/src/eYRC-2023_Hologlyph_Bots/hb_world" does not exist.
-[0.819s] Specify --help for usage, or press the help button on the CMake GUI.[0m
-[0.820s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
-[0.828s] Invoked command in '/home/srinjoy/hb_task2_ws/build/hb_world' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/srinjoy/ws_moveit/install/moveit_configs_utils:/opt/ros/humble /home/srinjoy/.local/bin/cmake --build /home/srinjoy/hb_task2_ws/build/hb_world -- -j12 -l12

@@ -1,5 +1,0 @@
-[0.720s] Invoking command in '/home/srinjoy/hb_task2_ws/build/my_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/srinjoy/ws_moveit/install/moveit_configs_utils:/opt/ros/humble /home/srinjoy/.local/bin/cmake --build /home/srinjoy/hb_task2_ws/build/my_robot_interfaces -- -j12 -l12
-[0.757s] [0mCMake Error: The source directory "/home/srinjoy/hb_task2_ws/src/eYRC-2023_Hologlyph_Bots/my_robot_interfaces" does not exist.
-[0.757s] Specify --help for usage, or press the help button on the CMake GUI.[0m
-[0.758s] gmake: *** [Makefile:1179: cmake_check_build_system] Error 1
-[0.765s] Invoked command in '/home/srinjoy/hb_task2_ws/build/my_robot_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/srinjoy/ws_moveit/install/moveit_configs_utils:/opt/ros/humble /home/srinjoy/.local/bin/cmake --build /home/srinjoy/hb_task2_ws/build/my_robot_interfaces -- -j12 -l12

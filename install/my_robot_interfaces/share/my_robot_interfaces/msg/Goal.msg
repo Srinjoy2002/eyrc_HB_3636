@@ -1,1 +1,0 @@
-/home/srinjoy/hb_task2_ws/src/eYRC-2023_Hologlyph_Bots/my_robot_interfaces/msg/Goal.msg
